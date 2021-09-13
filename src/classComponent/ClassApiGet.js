@@ -52,15 +52,15 @@ export default class ClassApiGet extends React.Component {
           }}
         >
           <h2>
-            <Link to={"/postApiClass"} className="navlink">
+            <Link to={"/postApiClass"} className="navlink1">
               PostData
             </Link>
-            &nbsp; &nbsp;&nbsp;
-            <Link to={"/putApiClass"} className="navlink">
+
+            <Link to={"/putApiClass"} className="navlink1">
               PutData
             </Link>
-            &nbsp; &nbsp;&nbsp;
-            <Link to={"/deleteApiClass"} className="navlink">
+
+            <Link to={"/deleteApiClass"} className="navlink1">
               DeleteData
             </Link>
           </h2>

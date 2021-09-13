@@ -73,15 +73,15 @@ function ApiCall(props) {
         }}
       >
         <h2>
-          <Link to={"/postApi"} className="navlink">
-            PostApi,
+          <Link to={"/postApi"} className="navlink1">
+            PostApi
           </Link>
-          &nbsp; &nbsp;&nbsp;
-          <Link to={"/putApi"} className="navlink">
-            PutData,
+          
+          <Link to={"/putApi"} className="navlink1">
+            PutData
           </Link>
-          &nbsp; &nbsp;&nbsp; 
-          <Link to={"/deleteApi"} className="navlink">
+          
+          <Link to={"/deleteApi"} className="navlink1">
             DeleteData
           </Link>
         </h2>
