@@ -69,6 +69,7 @@ function ApiCall(props) {
             fontSize: "11px",
             float: "right",
             marginTop: "0px",
+            
           }}>
         <h2>
           <Link to={"/postApi"} className="navlink">

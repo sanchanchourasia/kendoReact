@@ -23,7 +23,7 @@ const FormGridComponent = (props) => {
   return (
     <div className="gridView">
       <Grid
-        data={data.slice(skip, skip + take)}
+        //data={data.slice(skip, skip + take)}
         style={{ width: "70vw" }}
         pageable={true}
         skip={skip}
