@@ -64,7 +64,12 @@ function ApiCall(props) {
     <div>
       <br />
       <br />
-      <GridM style={{ float: "right", marginRight: "10rem", fontSize: "13px" }}>
+      <GridM style={{
+            marginRight: "4rem",
+            fontSize: "11px",
+            float: "right",
+            marginTop: "0px",
+          }}>
         <h2>
           <Link to={"/postApi"} className="navlink">
             PostApi
