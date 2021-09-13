@@ -27,7 +27,7 @@ const NavBar = () => {
   return (
     <div>
       <Router>
-        <AppBar
+        <AppBar 
           className="navBar"
           style={{
             display: "flex",
