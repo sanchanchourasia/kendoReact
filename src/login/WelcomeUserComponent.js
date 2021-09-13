@@ -37,7 +37,7 @@ function WelcomeUserComponent() {
           float:'left'
         }}
       >
-        <i>Welcome to DashBoard</i>
+        <i style={{position:"absolute", left:"10px"}}>Welcome to DashBoard</i>
       </div>
     </div>
   );
