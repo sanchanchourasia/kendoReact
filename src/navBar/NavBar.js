@@ -27,11 +27,22 @@ const NavBar = () => {
   return (
     <div>
       <Router>
-        <AppBar className="navBar">
+        <AppBar
+          className="navBar"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-around",
+          }}
+        >
           <AppBarSection className="Nav-left">
             <h1>React</h1>
           </AppBarSection>
-          <AppBarSection className="Nav-right">
+          <AppBarSection className="Nav-right" style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-around",
+          }}>
             <Link to={"/"} className="navlink">
               Home
             </Link>

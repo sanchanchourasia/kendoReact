@@ -1,113 +1,93 @@
-@import '@progress/kendo-theme-default/dist/all.css';
-*{
-    margin: 0px;
-    padding: 0px;   
+@import "@progress/kendo-theme-default/dist/all.css";
+* {
+  margin: 0px;
+  padding: 0px;
 }
 
-
-
-.btn-primary{
-    background-color: rgb(39, 39, 255);
-    padding: 10px;
-    color: white;
-    width: 150px;
-    height: 60px;
-    border: none;
-    font-size: 25px;
-    border-radius: 4px;
-
+.btn-primary {
+  background-color: rgb(39, 39, 255);
+  padding: 10px;
+  color: white;
+  width: 150px;
+  height: 60px;
+  border: none;
+  font-size: 25px;
+  border-radius: 4px;
 }
 
-.navBar{
-    height: auto;
-    overflow: hidden;
-    border-bottom: 1px solid grey;
-    display: flex; 
-    
+.navBar {
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid grey;
+  display: flex;
 }
 
-
-.cards-div{
-    width: 70vw;
-    margin: 0px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-    margin-bottom: 20px; 
+.cards-div {
+  width: 70vw;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
-.gridView{
-    margin: 5% 15%; 
+.gridView {
+  margin: 5% 15%;
 }
 
-.Nav-right{
-    padding-top: 10px;
-    text-decoration: none;
-    padding-right: 20px;
-    color: rgb(107, 73, 199);
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: auto;  
+.navlink {
+  margin-right: 10px;
+  cursor: pointer;
+  font-size: 15px;
+  text-decoration: none;
 }
 
-.Nav-right .navlink{
-   margin-right: 30px;
-   cursor: pointer; 
+.navBar {
+  height: auto;
+  overflow: hidden;
+  border-bottom: 1px solid grey;
 }
 
-
-
-
-.navBar{
-    height: auto;
-    overflow: hidden;
-    border-bottom: 1px solid grey;
-    display: flex; 
+.cards-div {
+  width: 70vw;
+  margin: 0px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-bottom: 20px;
 }
 
-
-.cards-div{
-    width: 70vw;
-    margin: 0px auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around; 
-    margin-bottom: 20px; 
+.gridView {
+  margin: 5% 15%;
 }
 
-.gridView{
-    margin: 5% 15%; 
+.Nav-right {
+  padding-top: 10px;
+  text-decoration: none;
+  padding-right: 20px;
+  color: rgb(107, 73, 199);
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: auto;
 }
 
-.Nav-right{
-    padding-top: 10px;
-    text-decoration: none;
-    padding-right: 20px;
-    color: rgb(107, 73, 199);
-    font-size: 18px;
-    font-weight: bold;
-    margin-left: auto;  
+.Nav-right .navlink {
+  margin-right: 30px;
+  cursor: pointer;
 }
 
-.Nav-right .navlink{
-   margin-right: 30px;
-   cursor: pointer; 
+h1 {
+  color: blue;
 }
 
-
-h1{
-    color: blue;
+.main-div {
+  width: 100vw;
+  height: 100vh;
 }
 
-.main-div{
-    width: 100vw;
-    height: 100vh;
+.child-div {
+  width: 14rem;
+  height: 14rem;
+  background-color: red;
+  padding: 5px;
 }
-
-.child-div{
-    width: 14rem;
-    height:14rem;
-    background-color:red;
-    padding:5px;
-}
-
