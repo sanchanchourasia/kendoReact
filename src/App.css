@@ -41,6 +41,10 @@
   font-size: 15px;
   text-decoration: none;
 }
+.Nav-right .navlink {
+  margin-right: 30px;
+  cursor: pointer;
+}
 
 .navBar {
   height: auto;
@@ -68,11 +72,6 @@
   font-size: 18px;
   font-weight: bold;
   margin-left: auto;
-}
-
-.Nav-right .navlink {
-  margin-right: 30px;
-  cursor: pointer;
 }
 
 h1 {

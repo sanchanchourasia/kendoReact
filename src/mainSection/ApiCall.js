@@ -64,22 +64,23 @@ function ApiCall(props) {
     <div>
       <br />
       <br />
-      <GridM style={{
-            marginRight: "4rem",
-            fontSize: "11px",
-            float: "right",
-            marginTop: "0px",
-            
-          }}>
+      <GridM
+        style={{
+          marginRight: "4rem",
+          fontSize: "11px",
+          float: "right",
+          marginTop: "0px",
+        }}
+      >
         <h2>
           <Link to={"/postApi"} className="navlink">
-            PostApi
+            PostApi,
           </Link>
-          &nbsp; &nbsp;
+          &nbsp; &nbsp;&nbsp;
           <Link to={"/putApi"} className="navlink">
-            PutData
+            PutData,
           </Link>
-          &nbsp; &nbsp;
+          &nbsp; &nbsp;&nbsp; 
           <Link to={"/deleteApi"} className="navlink">
             DeleteData
           </Link>

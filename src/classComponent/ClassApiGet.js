@@ -55,11 +55,11 @@ export default class ClassApiGet extends React.Component {
             <Link to={"/postApiClass"} className="navlink">
               PostData
             </Link>
-            &nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp;
             <Link to={"/putApiClass"} className="navlink">
               PutData
             </Link>
-            &nbsp; &nbsp;
+            &nbsp; &nbsp;&nbsp;
             <Link to={"/deleteApiClass"} className="navlink">
               DeleteData
             </Link>
@@ -69,12 +69,8 @@ export default class ClassApiGet extends React.Component {
         <br />
         <br />
         <div className="gridView">
-          
           <b>(GET) API-2</b>
-          <Grid
-            data={this.state.users}
-            style={{ width: "70vw"}}
-          >
+          <Grid data={this.state.users} style={{ width: "70vw" }}>
             <GridColumn field="id" />
             <GridColumn field="email" />
             <GridColumn field="first_name" />
