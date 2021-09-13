@@ -10,7 +10,7 @@ const FormGridComponent = (props) => {
     setTake(e.page.take);
   };
 
-  let data = props.data;
+  //let data = props.data;
   //console.log(data);
 
 
