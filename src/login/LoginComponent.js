@@ -53,6 +53,7 @@ function LoginComponent() {
         <TextField
           style={{ marginBottom: "10px" }}
           id="password"
+          type="password"
           label="Password"
           value={logindata.password}
           size="small"
