@@ -27,7 +27,13 @@ const NavBar = () => {
           }}
         >
           <AppBarSection className="Nav-left">
-            <h1>React</h1>
+            <h1
+              style={{
+                fontSize: "22px",
+              }}
+            >
+              React
+            </h1>
           </AppBarSection>
           <AppBarSection className="Nav-right">
             <Link to={"/"} className="navlink">
@@ -64,7 +70,9 @@ const NavBar = () => {
         >
           {/* // using class components */}
           <AppBarSection className="Nav-left">
-            <h2>Using Class Component</h2>
+            <h2 style={{
+            fontSize:"18px",
+          }}>Using Class Component</h2>
           </AppBarSection>
           <AppBarSection className="Nav-right">
             <Link to={"/getApiUsingClass"} className="navlink">
