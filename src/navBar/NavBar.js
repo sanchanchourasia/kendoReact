@@ -13,21 +13,12 @@ import ClassApiPost from "../classComponent/ClassApiPost";
 import CardComponent from "../mainSection/CardComponent";
 import LoginComponent from "../login/LoginComponent";
 import WelcomeUserComponent from "../login/WelcomeUserComponent";
-// import CardComponent from "../mainsection/CardComponent";
-// import ApiCall from "../mainsection/ApiCall";
-
-// import Postapi from "../mainsection/ApiPostCall";
-// import ApiDeleteCall from "../mainsection/ApiDeleteCall";
-// import ApiPutCall from "../mainsection/ApiPut";
-// import App from "../App";
-// import ClassApiGet from "../classComponent/ClassApiGet";
-// import ClassApiPost from "../classComponent/ClassApiPost";
 
 const NavBar = () => {
   return (
     <div>
       <Router>
-        <AppBar 
+        <AppBar
           className="navBar"
           style={{
             display: "flex",
@@ -38,11 +29,7 @@ const NavBar = () => {
           <AppBarSection className="Nav-left">
             <h1>React</h1>
           </AppBarSection>
-          <AppBarSection className="Nav-right" style={{
-            display: "flex",
-            flexWrap: "wrap",
-            justifyContent: "space-around",
-          }}>
+          <AppBarSection className="Nav-right">
             <Link to={"/"} className="navlink">
               Home
             </Link>
@@ -51,7 +38,7 @@ const NavBar = () => {
             </Link>
 
             <Link to={"/kendoGrid"} className="navlink">
-              KendoGri
+              KendoGrid
             </Link>
 
             <Link to={"/getApi"} className="navlink">
@@ -67,7 +54,14 @@ const NavBar = () => {
           </AppBarSection>
         </AppBar>
         <hr />
-        <AppBar className="navBar">
+        <AppBar
+          className="navBar"
+          style={{
+            display: "flex",
+            flexWrap: "wrap",
+            justifyContent: "space-around",
+          }}
+        >
           {/* // using class components */}
           <AppBarSection className="Nav-left">
             <h2>Using Class Component</h2>
@@ -92,14 +86,6 @@ const NavBar = () => {
           <Route path="/login" component={LoginComponent} />
           <Route path="/welcome/" component={WelcomeUserComponent} />
         </Switch>
-        {/* <Switch>
-          
-          <Route path="/kendoGrid" component={ColumnGrid} />
-                  
-          
-          
-          
-        </Switch> */}
       </Router>
     </div>
   );

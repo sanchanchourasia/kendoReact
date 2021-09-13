@@ -36,7 +36,7 @@
 }
 
 .navlink {
-  margin-right: 10px;
+  margin-left: -15px;
   cursor: pointer;
   font-size: 15px;
   text-decoration: none;
@@ -64,7 +64,6 @@
 .Nav-right {
   padding-top: 10px;
   text-decoration: none;
-  padding-right: 20px;
   color: rgb(107, 73, 199);
   font-size: 18px;
   font-weight: bold;
