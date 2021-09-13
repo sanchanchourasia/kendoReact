@@ -1,18 +1,18 @@
-import React from "react";
 import { Grid, GridColumn } from "@progress/kendo-react-grid";
+import React, { useState } from "react";
+
 
 const FormGridComponent = (props) => {
-  const [skip, setSkip] = React.useState(0);
-  const [take, setTake] = React.useState(4);
+  const [skip, setSkip] = useState();
+  const [take, setTake] = useState();
 
   const onPageChange = (e) => {
     setSkip(e.page.skip);
     setTake(e.page.take);
   };
 
-  //let data = props.data;
-  //console.log(data);
-
+  let dataa = props.data;
+  console.log(dataa);
 
   // const notify = () => {
   //   toast.success("Working!", {
@@ -23,13 +23,12 @@ const FormGridComponent = (props) => {
   return (
     <div className="gridView">
       <Grid
-        //data={data.slice(skip, skip + take)}
+        data={dataa}
         style={{ width: "70vw" }}
         pageable={true}
         skip={skip}
         take={take}
         onPageChange={onPageChange}
-        
       >
         <GridColumn field="first_name" />
         <GridColumn field="last_name" />

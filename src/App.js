@@ -4,7 +4,6 @@ import React, { useState } from "react";
 import { TextField } from "@material-ui/core";
 import FormGridComponent from "./formDashboard/FormGridComponent";
 
-
 function App() {
   const [data, setData] = useState({
     first_name: "",
@@ -14,7 +13,7 @@ function App() {
     contact: "",
   });
 
-  let [resData, setresData] = useState()
+  let [resData, setresData] = useState({data});
 
   let submitHandler = () => {
     if (
@@ -24,7 +23,7 @@ function App() {
       data.email !== "" &&
       data.contact !== ""
     ) {
-       setresData ([
+      setresData([
         {
           first_name: data.first_name,
           last_name: data.last_name,
@@ -33,14 +32,14 @@ function App() {
           contact: data.contact,
         },
       ]);
-      
+
       alert("Success");
-      console.log('f_name - ' + data.first_name);
-      console.log('l_name - ' + data.last_name);
-      console.log('profile - ' + data.profile);
-      console.log('email - ' + data.email);
-      console.log('contact - ' + data.contact);
-      console.log(resData);
+      console.log("f_name - " + data.first_name);
+      console.log("l_name - " + data.last_name);
+      console.log("profile - " + data.profile);
+      console.log("email - " + data.email);
+      console.log("contact - " + data.contact);
+      console.log("resdataaaaaaa" + resData);
       setData({
         first_name: "",
         last_name: "",
@@ -48,15 +47,11 @@ function App() {
         email: "",
         contact: "",
       });
-      
     } else {
       alert("Pls enter all details");
     }
   };
 
-  
-
- 
   return (
     <div>
       <br />

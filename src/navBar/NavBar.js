@@ -70,9 +70,13 @@ const NavBar = () => {
         >
           {/* // using class components */}
           <AppBarSection className="Nav-left">
-            <h2 style={{
-            fontSize:"18px",
-          }}>Using Class Component</h2>
+            <h2
+              style={{
+                fontSize: "18px",
+              }}
+            >
+              Using Class Component
+            </h2>
           </AppBarSection>
           <AppBarSection className="Nav-right">
             <Link to={"/getApiUsingClass"} className="navlink">
